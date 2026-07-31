@@ -72,7 +72,7 @@ jobs:
             abs-client=client-react
             abs-server=.
           platforms: linux/amd64
-          push: true
+          push: false
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
 
